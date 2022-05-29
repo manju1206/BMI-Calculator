@@ -1,0 +1,39 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    font-family: Arial;
+    background-color: skyblue;
+}
+
+span {
+    color: red;
+}
+
+.wrapper {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    background: black;
+    padding: 16px;
+    box-shadow: rgb(93, 89, 87) 0px 20px 30px -10px;
+}
+
+input {
+    outline: none;
+    border: none;
+    padding: 5px;
+    background-color: white;
+    font-size: medium;
+}
+
+button {
+    color: white;
+    padding: 10px;
+    border: 5%;
+    background-color: rgb(153, 160, 158);
+    border-radius: 10%;
+    cursor: pointer;
+}
